@@ -22,12 +22,11 @@ body{
 }
 
 .sm a::before, .sm a::after{
-    content: "";
+    content: '';
     position: absolute;
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    border: 4px solid;
     left: 0;
     top: 0;
     transition: .4s linear;
